@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaPlusCircle } from 'react-icons/fa';
-import DefaultProps from './PropTypes';
+import DefaultProps from '../PropTypes';
 
 const InputTodo = ({ addTodoItem }) => {
   const [task, setTask] = useState('');

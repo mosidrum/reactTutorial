@@ -1,6 +1,6 @@
 import React from 'react';
-import TodosLogic from './TodosLogic';
-import Header from './Header';
+import TodosLogic from './components/TodosLogic';
+import Header from './components/Header';
 
 const TodoApp = () => (
   <>

@@ -1,4 +1,4 @@
-import DefaultProps from './PropTypes';
+import DefaultProps from '../PropTypes';
 import TodoItem from './TodoItem';
 
 const TodoList = ({

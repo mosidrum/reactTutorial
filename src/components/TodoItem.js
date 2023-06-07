@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { FaTrash } from 'react-icons/fa';
 import { AiFillEdit } from 'react-icons/ai';
-import styles from './styles/TodoItem.module.scss';
-import DefaultProps from './PropTypes';
+import styles from '../styles/TodoItem.module.scss';
+import DefaultProps from '../PropTypes';
 
 const TodoItem = ({
   itemprops, handleChange, deleteTodo, setUpdate,

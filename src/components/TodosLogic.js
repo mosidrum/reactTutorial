@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import InputTodo from './InputTodo';
 import TodoList from './TodoList';
-import DefaultProps from './PropTypes';
+import DefaultProps from '../PropTypes';
 
 const TodosLogic = () => {
   function getInitialTodos() {
