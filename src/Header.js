@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './styles/header.module.scss'
+import styles from './styles/header.module.scss';
 
 const Header = () => {
   const headerStyle = {
@@ -13,5 +13,5 @@ const Header = () => {
       <h1>todos</h1>
     </header>
   );
-}
+};
 export default Header;
